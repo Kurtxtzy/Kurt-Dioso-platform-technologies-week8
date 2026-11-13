@@ -1,31 +1,42 @@
+
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background: #f4f4f4;
+    background-color: #f2f2f2;
+    color: #222;
 }
 
 header {
-    text-align: center;
-    padding: 40px 20px;
-    background: #222;
+    background-color: #222;
     color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 14px;
 }
 
 nav {
+    background-color: #444;
     text-align: center;
-    padding: 15px;
-    background: #444;
+    padding: 12px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    font-size: 14px;
 }
 
 nav a:hover {
@@ -34,24 +45,35 @@ nav a:hover {
 
 main {
     max-width: 900px;
-    margin: auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 0 15px;
 }
 
 section {
-    background: white;
-    margin-bottom: 20px;
-    padding: 25px;
-    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
-h2 {
-    margin-top: 0;
+section h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+section p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+section ul {
+    margin-left: 25px;
+    line-height: 1.8;
 }
 
 footer {
-    text-align: center;
-    padding: 25px;
-    background: #222;
+    background-color: #222;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
